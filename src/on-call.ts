@@ -1,4 +1,4 @@
-import { createMethodDecoratorFromHighOrderFn } from './create-method-decorator-from-high-order-fn';
+import { createMethodDecoratorFromHighOrderFn } from './createMethodDecoratorFromHighOrderFn';
 
 export function OnCall(callback: (...args: any[]) => void): MethodDecorator {
   return createMethodDecoratorFromHighOrderFn((childFunction: (...args: any[]) => any) => {
