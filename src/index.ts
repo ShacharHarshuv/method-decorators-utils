@@ -1,1 +1,1 @@
-export * from './sum';
+export * from './create-method-decorator-from-high-order-fn';
