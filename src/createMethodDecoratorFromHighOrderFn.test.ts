@@ -1,7 +1,7 @@
-import { createMethodDecoratorFromHighOrderFn } from './createMethodDecoratorFromHighOrderFn';
+import { createMethodDecoratorFromHighOrderFn } from "./createMethodDecoratorFromHighOrderFn";
 
 describe(createMethodDecoratorFromHighOrderFn.name, () => {
-  it('should apply the high-level function to the decorated method', () => {
+  it("should apply the high-level function to the decorated method", () => {
     // Define a high-level function that returns a function that adds 1 to its input
     const highLevelFunction = (originalMethod: Function) => {
       return function (this: any, ...args: any[]) {

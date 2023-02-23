@@ -1,7 +1,7 @@
-import { OnCall } from './on-call';
+import { OnCall } from "./on-call";
 
-describe('OnCall', () => {
-  it('should call the callback function before calling the decorated method', () => {
+describe("OnCall", () => {
+  it("should call the callback function before calling the decorated method", () => {
     // Define a callback function that sets a flag when called
     let flag = false;
     const callback = () => {
@@ -24,7 +24,7 @@ describe('OnCall', () => {
     expect(flag).toBe(true);
   });
 
-  it('should pass arguments to the decorated method', () => {
+  it("should pass arguments to the decorated method", () => {
     // Define a class with a decorated method that takes an argument
     class TestClass {
       @OnCall(() => {})

@@ -1,3 +1,3 @@
-export * from './createMethodDecoratorFromHighOrderFn';
-export * from './mergeDecorators';
-export * from './on-call';
+export * from "./createMethodDecoratorFromHighOrderFn";
+export * from "./mergeDecorators";
+export * from "./on-call";
