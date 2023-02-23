@@ -1,4 +1,4 @@
-import { createMethodDecoratorFromHighOrderFn } from './create-method-decorator-from-high-order-fn';
+import { createMethodDecoratorFromHighOrderFn } from './createMethodDecoratorFromHighOrderFn';
 
 describe(createMethodDecoratorFromHighOrderFn.name, () => {
   it('should apply the high-level function to the decorated method', () => {

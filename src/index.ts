@@ -1,1 +1,2 @@
-export * from './create-method-decorator-from-high-order-fn';
+export * from './createMethodDecoratorFromHighOrderFn';
+export * from './mergeDecorators';
