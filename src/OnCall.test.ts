@@ -1,4 +1,4 @@
-import { OnCall } from "./on-call";
+import { OnCall } from "./OnCall";
 
 describe("OnCall", () => {
   it("should call the callback function before calling the decorated method", () => {

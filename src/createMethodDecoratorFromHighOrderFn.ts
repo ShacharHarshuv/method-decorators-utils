@@ -1,5 +1,8 @@
 export type HigherOrderFunction<T extends (...args: any) => any> = (fn: T) => T;
 
+/**
+ * @pure
+ * */
 export function createMethodDecoratorFromHighOrderFn<
   T extends (...args: any) => any
 >(highLevelFunction: HigherOrderFunction<T>) {

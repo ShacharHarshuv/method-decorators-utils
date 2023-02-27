@@ -1,3 +1,6 @@
+/**
+ * @pure
+ * */
 export function mergeDecorators(
   ...decorators: MethodDecorator[]
 ): MethodDecorator {

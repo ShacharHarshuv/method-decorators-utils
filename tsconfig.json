@@ -8,7 +8,12 @@
     "outDir": "lib",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "reflect-metadata",
+      "@types/jest"
+    ]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.test.ts"]
