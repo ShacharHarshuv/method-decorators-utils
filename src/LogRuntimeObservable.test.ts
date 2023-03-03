@@ -1,8 +1,7 @@
 import { LogRuntimeObservable } from "./LogRuntimeObservable";
 import { of, delay, take } from "rxjs";
 
-// todo
-fdescribe("LogRuntimeObservable", () => {
+describe("LogRuntimeObservable", () => {
   beforeEach(() => {
     jest.spyOn(console, "log").mockImplementation();
     jest.clearAllMocks();
